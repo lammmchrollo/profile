@@ -1,0 +1,25 @@
+:root{
+  --sky:#87CEEB;--pink:#FFB6C1;--black:#0A0A0A;--white:#FFFFFF;
+  --neon:#00D4FF;--gold:#C8A96E;
+  --bg:#0A0A0A;--fg:#F0EDE8;--fg2:rgba(240,237,232,0.55);
+  --card:rgba(255,255,255,0.04);--border:rgba(255,255,255,0.1);
+  --glow-blue:rgba(135,206,235,0.35);--glow-pink:rgba(255,182,193,0.3);
+  --sakura-alpha:0.75;
+}
+[data-theme="light"]{
+  --bg:#F2EDE7;--fg:#1A1410;--fg2:rgba(26,20,16,0.55);
+  --card:rgba(0,0,0,0.04);--border:rgba(0,0,0,0.1);
+  --glow-blue:rgba(50,120,180,0.2);--glow-pink:rgba(200,80,100,0.15);
+  --sakura-alpha:0.55;
+}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;font-size:16px}
+body{
+  background:var(--bg);color:var(--fg);
+  font-family:'Noto Sans JP',sans-serif;
+  overflow-x:hidden;cursor:none;
+  transition:background .6s,color .6s;
+}
+a{color:inherit}
+img{max-width:100%;display:block}
+button,input,textarea{font:inherit}
