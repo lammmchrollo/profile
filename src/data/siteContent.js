@@ -1,9 +1,9 @@
 export const siteContent = {
   profile: {
-    fullName: "Nguyen Van A",
+    fullName: "Pham Tung Lam",
     logo: "VJU Portfolio",
-    displayName1: "NGUYEN",
-    displayName2: "VAN A",
+    displayName1: "PHAM",
+    displayName2: "TUNG LAM",
     eyebrow: "Vietnam–Japan University · Student Portfolio · 2025",
     heroTagline: "Giữa cảm hứng Á Đông và công nghệ hiện đại,<br>tôi xây dựng những sản phẩm số chỉn chu, sáng tạo và có giá trị thực tế.",
     role: "Sinh viên Công nghệ · Vietnam–Japan University",
@@ -16,21 +16,21 @@ export const siteContent = {
       title: "GitHub",
       description: "Nơi thể hiện repository, source code, commit và quá trình phát triển kỹ năng kỹ thuật.",
       icon: "💻",
-      href: "https://github.com/your-username",
+      href: "https://github.com/lammmchrollo",
       label: "Open GitHub"
     },
     {
       title: "LinkedIn",
       description: "Giới thiệu học vấn, thành tích và định hướng nghề nghiệp một cách chuyên nghiệp.",
       icon: "🔗",
-      href: "https://linkedin.com/in/your-username",
+      href: "https://linkedin.com/in/lammmchrollo",
       label: "Open LinkedIn"
     },
     {
       title: "Email",
       description: "Kênh liên hệ phù hợp cho nhà tuyển dụng, đối tác và các lời mời hợp tác.",
       icon: "✉️",
-      href: "mailto:your-email@example.com",
+      href: "mailto:phamtunglam.chrollo@gmail.com",
       label: "Send Email"
     },
     {
